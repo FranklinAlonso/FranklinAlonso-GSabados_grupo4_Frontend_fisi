@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/contrato_bg"
+    tools:context=".Contrato">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="210dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="219dp"
+            android:text="¡Escoge un Contrato!"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.259" />
+
+
+        <Button
+            android:id="@+id/contratocon"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:text="Contrato con"
+            android:layout_marginStart="210dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="219dp" />
+
+        <Button
+            android:id="@+id/contratosin"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:text="Contrato sin"
+            android:layout_marginStart="210dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="219dp" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</RelativeLayout>

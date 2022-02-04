@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.LosF.pasaleladepago">
+
+    <application
+        android:name=".ExampleApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PasaleladePago">
+
+        <meta-data
+            android:name="com.google.android.gms.wallet.api.enabled"
+            android:value="true"/>
+
+        <meta-data
+            android:name="sqip.SQUARE_APPLICATION_ID"
+            android:value="sandbox-sq0idb-yuYnANf07XlfdU-F36hQug"/>
+
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SalaEspera" />
+        <activity android:name=".popup" />
+        <activity android:name=".PartidaPVP" />
+        <activity android:name=".PartidaPVE" />
+        <activity android:name=".Pago" />
+        <activity android:name=".Tienda" />
+        <activity android:name=".MuestraGanadorPVE" />
+        <activity android:name=".muestraGanador" />
+        <activity android:name=".MenuJugar" />
+        <activity android:name=".Menu" />
+        <activity android:name=".EsperaContrato" />
+        <activity
+            android:name=".CheckoutActivity"
+            android:theme="@style/AppTheme.CookieActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".DificultadesPVE" />
+        <activity android:name=".ContratoPVE" />
+        <activity
+            android:name=".Contrato"
+            android:theme="@style/PopMe" />
+        <activity android:name=".ComoJugar3" />
+        <activity android:name=".ComoJugar2" />
+        <activity android:name=".ComoJugar" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

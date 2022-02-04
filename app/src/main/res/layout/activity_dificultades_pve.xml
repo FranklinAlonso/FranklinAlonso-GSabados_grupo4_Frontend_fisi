@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#454547"
+    tools:context=".DificultadesPVE">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="414dp"
+            android:layout_height="133dp"
+            android:background="#F58992"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="-1dp"
+            android:layout_marginTop="-160dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="#F58992"
+                android:text="DIFICULTAD"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="34sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/Facil"
+            android:layout_width="178dp"
+            android:layout_height="60dp"
+            android:backgroundTint="#F8DD84"
+            android:radius="120dp"
+            android:text="FACIL"
+            android:textSize="24sp"
+            android:layout_marginTop="80dp"
+            tools:layout_editor_absoluteX="116dp"
+            tools:layout_editor_absoluteY="224dp"
+            app:cornerRadius="20dp"/>
+
+        <Button
+            android:id="@+id/Normal"
+            android:layout_width="178dp"
+            android:layout_height="60dp"
+            android:backgroundTint="#F8DD84"
+            android:text="MEDIO"
+            android:textSize="24sp"
+            android:layout_marginTop="80dp"
+            tools:layout_editor_absoluteX="116dp"
+            tools:layout_editor_absoluteY="350dp"
+            app:cornerRadius="20dp"/>
+
+        <Button
+            android:id="@+id/Dificil"
+            android:layout_width="178dp"
+            android:layout_height="60dp"
+            android:backgroundTint="#F8DD84"
+            android:text="DIFICIL"
+            android:textSize="24sp"
+            android:layout_marginTop="80dp"
+            tools:layout_editor_absoluteX="116dp"
+            tools:layout_editor_absoluteY="459dp"
+            app:cornerRadius="20dp"/>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

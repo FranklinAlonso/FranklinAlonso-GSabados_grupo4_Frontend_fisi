@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#454547"
+    tools:context=".MenuJugar">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="414dp"
+            android:layout_height="133dp"
+            android:layout_marginTop="-185dp"
+            android:background="#F58992"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="-1dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="#F58992"
+                android:text="MODALIDAD"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="34sp" />
+        </LinearLayout>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="80dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="169dp"
+                android:layout_height="157dp"
+                app:srcCompat="@drawable/jugador1"
+                tools:layout_editor_absoluteX="11dp"
+                tools:layout_editor_absoluteY="211dp" />
+
+            <Button
+                android:id="@+id/PVE"
+                android:layout_width="178dp"
+                android:layout_height="60dp"
+                android:backgroundTint="#F8DD84"
+                android:fontFamily="@font/alfa_slab_one"
+                android:text="1 JUGADOR"
+                android:textSize="20sp"
+                app:cornerRadius="20dp"
+                tools:layout_editor_absoluteX="206dp"
+                tools:layout_editor_absoluteY="261dp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="80dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="169dp"
+                android:layout_height="157dp"
+                app:srcCompat="@drawable/jugador2"
+                tools:layout_editor_absoluteX="11dp"
+                tools:layout_editor_absoluteY="358dp" />
+
+            <Button
+                android:id="@+id/PVP"
+                android:layout_width="178dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="11dp"
+                android:backgroundTint="#F8DD84"
+                android:fontFamily="@font/alfa_slab_one"
+                android:text="EN LINEA"
+                android:textSize="20sp"
+                app:cornerRadius="20dp"
+                tools:layout_editor_absoluteX="206dp"
+                tools:layout_editor_absoluteY="406dp" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:padding="30dp"
+        >
+
+        <ImageButton
+            android:id="@+id/Volver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotationY="-180"
+            app:srcCompat="@drawable/flecha" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</RelativeLayout>

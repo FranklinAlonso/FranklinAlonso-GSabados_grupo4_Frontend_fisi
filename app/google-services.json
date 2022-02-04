@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1078438792252",
+    "project_id": "arcane-m",
+    "storage_bucket": "arcane-m.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078438792252:android:d03cb0f4e3804644a1c739",
+        "android_client_info": {
+          "package_name": "com.LosF.pasaleladepago"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1078438792252-hpca4vgcmaaklajkjhtmrusm2js5kbmf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.LosF.pasaleladepago",
+            "certificate_hash": "d126b0b7137a884f94ec7384b127bab13b37fe49"
+          }
+        },
+        {
+          "client_id": "1078438792252-oputc7pmgn3i5hqkvfr3b12tkfg3t4gl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBW53epzS1WSxFUJF8gLcnO9HYPUyR3MI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1078438792252-oputc7pmgn3i5hqkvfr3b12tkfg3t4gl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
